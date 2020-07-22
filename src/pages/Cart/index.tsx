@@ -23,8 +23,10 @@ import {
   SubtotalValue,
 } from './styles';
 
+// import the cart information
 import { useCart } from '../../hooks/cart';
 
+// method to format currency to BRL
 import formatValue from '../../utils/formatValue';
 
 interface Product {
@@ -36,6 +38,7 @@ interface Product {
 }
 
 const Cart: React.FC = () => {
+  // use cart context (quantity changers and product details)
   const { increment, decrement, products } = useCart();
 
   function handleIncrement(id: string): void {

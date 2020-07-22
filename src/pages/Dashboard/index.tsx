@@ -1,10 +1,15 @@
 import React, { useState, useEffect } from 'react';
+// import all Feather icons
 import FeatherIcon from 'react-native-vector-icons/Feather';
 
 import { View, Image } from 'react-native';
 
+// currency conversion for BRL format
 import formatValue from '../../utils/formatValue';
+
 import { useCart } from '../../hooks/cart';
+
+// import axios for back-end HTTP requests
 import api from '../../services/api';
 
 import FloatingCart from '../../components/FloatingCart';
@@ -29,13 +34,18 @@ interface Product {
 }
 
 const Dashboard: React.FC = () => {
+  // access addToCart method from the cart context
   const { addToCart } = useCart();
 
+  // products listed in the server.json file
   const [products, setProducts] = useState<Product[]>([]);
 
   useEffect(() => {
     async function loadProducts(): Promise<void> {
-      // TODO
+      // get product list from the API
+      const response = await api.get('/products');
+      const productList = response.data;
+      setProducts(productList);
     }
 
     loadProducts();
