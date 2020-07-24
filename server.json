@@ -2,26 +2,26 @@
   "products": [
     {
       "id": "123",
-      "title": "Nome do produto 01",
+      "title": "T-shirt",
       "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
       "price": 50
     },
     {
       "id": "1234",
-      "title": "Nome do produto 02",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
+      "title": "Scooby-Doo slippers",
+      "image_url": "https://images-americanas.b2w.io/produtos/01/00/img/152990/5/152990541_1GG.jpg",
       "price": 60
     },
     {
       "id": "12345",
-      "title": "Nome do produto 03",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
+      "title": "Teddy Bear",
+      "image_url": "https://4.imimg.com/data4/MY/XA/MY-34628696/cute-teddy-bear-500x500.jpg",
       "price": 70
     },
     {
       "id": "123456",
-      "title": "Nome do produto 04",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
+      "title": "Official NBA Ball",
+      "image_url": "https://res-2.cloudinary.com/russell-corp-australia-pty-ltd/image/upload/c_fit,dpr_2.0,f_auto,h_950,q_auto,w_950/media/catalog/product/image/1110cf0d/official-nba-leather-game-ball.jpg",
       "price": 80
     }
   ]
