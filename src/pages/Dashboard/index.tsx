@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 // import all Feather icons
 import FeatherIcon from 'react-native-vector-icons/Feather';
 
-import { View, Image } from 'react-native';
+import { View } from 'react-native';
 
 // currency conversion for BRL format
 import formatValue from '../../utils/formatValue';
